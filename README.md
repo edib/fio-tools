@@ -5,8 +5,9 @@
 
 ## How to use this repo
 
-1. Build the images or use the public images
+1. Build the images (run ./buildimages.sh) or use the public images
 2. Create a [Fio Jobfile](http://www.bluestop.org/fio/HOWTO.txt)
+3. Job files must be in /tmp/fio-data. Put example files there.  
 3. Run the `fio-tool` image
 
   ```
