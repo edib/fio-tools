@@ -1,7 +1,7 @@
-FROM ubuntu:14.10
+FROM ubuntu:16.04
 MAINTAINER <Ryan Wallner ryan.wallner@clusterhq.com>
 
-RUN sed -i -e 's/archive.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
+#RUN sed -i -e 's/archive.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 RUN apt-get -y update && apt-get -y install fio gnuplot
 
 # Add modified script to y axis is set accurately
